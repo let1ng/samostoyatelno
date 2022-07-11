@@ -1,0 +1,24 @@
+{
+  "name": "starays",
+  "version": "1.0.0",
+  "description": "samostoyatelno",
+  "main": "index.js",
+  "scripts": {"start": "node ./src/sort/hello.js",
+  "test": "npm run eslint",
+  "eslint": "eslint --ext .js src/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/let1ng/samostoyatelno.git"
+  },
+  "author": "let1ng",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/let1ng/samostoyatelno/issues"
+  },
+  "homepage": "https://github.com/let1ng/samostoyatelno#readme",
+  "devDependencies": {
+    "eslint": "8.19.0",
+    "eslint-config-htmlacademy": "0.6.0"
+  }
+}
